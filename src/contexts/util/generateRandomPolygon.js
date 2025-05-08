@@ -13,8 +13,8 @@ export default function generateRandomPolygon() {
   const anchors = [];
   for (let _ = 0; _ < numAnchors; _++) {
     const coords = {
-      mathX: Math.random() * window.innerWidth - window.innerWidth / 2,
-      mathY: Math.random() * 0.9 * window.innerHeight
+      mathX: (Math.random() * window.innerWidth - window.innerWidth / 2) / 3,
+      mathY: (Math.random() * 0.9 * window.innerHeight) / 3
     };
     anchors.push({
       ...coords,

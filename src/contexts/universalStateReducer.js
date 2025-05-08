@@ -144,7 +144,8 @@ export default function universalStateReducer(universalState, action) {
         canvasInfo: {
           ...canvasInfo,
           snapshots: [ ...allDrawingsToPresent, [] ],
-          currIdx: currIdx + 1
+          currIdx: currIdx + 1,
+          isAnimating: false
         },
         controlPanels: []
       };
