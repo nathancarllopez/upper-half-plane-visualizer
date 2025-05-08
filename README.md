@@ -17,6 +17,8 @@ A tool for visualizing and exploring the [upper half-plane model of hyperbolic s
 3. ### Math
   - **Additional Shapes**: I would like to add [laminations](https://encyclopediaofmath.org/index.php?title=Lamination&oldid=l120020), [fundamental domains](https://encyclopediaofmath.org/wiki/Fundamental_domain), and custom mobius transformations in addition to the rotations and translations already provided.
   - **Other Modles**: Being able to visualize the [disk model](https://en.wikipedia.org/wiki/Poincar%C3%A9_disk_model) and [other models](https://en.wikipedia.org/wiki/Hyperbolic_geometry#Models_of_the_hyperbolic_plane) would be fantastic. In particular, being able to preserve drawings while switching between models to see how the drawings change is a big goal of mine.
+4. ### Bugs
+  - **Animation Panel**: Sometimes when clicking the animation panel it gets stuck to the mouse and drags along with the mouse movement.
 
 ## Acknowledgments
 - Thanks to Janis Lazovskis and Keaton Quinn for extensive feedback and willingess to test new features.
